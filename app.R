@@ -277,12 +277,12 @@ ui <- page_sidebar(
       
       /* Value Box Size Reduction & Text Enlarge */
       .value-box {
-        min-height: 85px !important;
-        height: 92px !important;
-        padding: 8px 14px !important;
+        min-height: 70px !important;
+        height: 75px !important;
+        padding: 4px 10px !important;
       }
       .value-box .value-box-area {
-        gap: 2px !important;
+        gap: 1px !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
@@ -290,16 +290,16 @@ ui <- page_sidebar(
         margin: 0 !important;
       }
       .value-box-title {
-        font-size: 14px !important;
+        font-size: 12px !important;
         font-weight: 800 !important;
         text-transform: uppercase !important;
-        letter-spacing: 0.04em !important;
+        letter-spacing: 0.03em !important;
         margin-bottom: 0px !important;
         opacity: 0.95 !important;
         line-height: 1.1 !important;
       }
       .value-box-value {
-        font-size: 36px !important;
+        font-size: 28px !important;
         font-weight: 900 !important;
         line-height: 1.0 !important;
         margin-bottom: 0px !important;
@@ -308,7 +308,7 @@ ui <- page_sidebar(
       
       /* Value Box Subtitles */
       .value-box p {
-        font-size: 12px !important;
+        font-size: 10.5px !important;
         margin: 0 !important;
         opacity: 0.9 !important;
         line-height: 1.1 !important;
@@ -317,7 +317,7 @@ ui <- page_sidebar(
       }
       
       .value-box .showcase {
-        font-size: 24px !important;
+        font-size: 20px !important;
         opacity: 0.18 !important;
         margin-right: 2px !important;
       }
@@ -402,7 +402,7 @@ ui <- page_sidebar(
   layout_column_wrap(
     width = 1/5,
     fill = FALSE,
-    style = "margin-bottom: 15px; margin-top: 5px;",
+    style = "margin-bottom: 8px; margin-top: 2px;",
     
     value_box(
       title = "TOTAL ENCUESTAS",
@@ -443,7 +443,7 @@ ui <- page_sidebar(
   
   # 5) Main body tabset panel containing the map and control tables
   navset_card_tab(
-    height = "680px",
+    height = "820px",
     
     # Tab 1: Mapa de Coordenadas
     nav_panel(
