@@ -819,7 +819,6 @@ server <- function(input, output, session) {
           "<tr><td style='padding: 3px 0; color: #64748b; font-weight: 600; vertical-align: top;'>Distrito:</td><td style='padding: 3px 0; color: #334155;'>", map_df$distrito, "</td></tr>",
           "<tr><td style='padding: 3px 0; color: #64748b; font-weight: 600; vertical-align: top;'>Zona:</td><td style='padding: 3px 0; color: #334155;'>", map_df$zona, "</td></tr>",
           "<tr><td style='padding: 3px 0; color: #64748b; font-weight: 600; vertical-align: top;'>Cluster:</td><td style='padding: 3px 0; color: #334155;'>", map_df$cluster_oculto, "</td></tr>",
-          "<tr><td style='padding: 3px 0; color: #64748b; font-weight: 600; vertical-align: top;'>Fecha Clase:</td><td style='padding: 3px 0; color: #334155; font-weight: 500;'>", format(map_df$fecha_en_que_se_desarrollo_la_clase, "%d/%m/%Y"), "</td></tr>",
           "<tr><td style='padding: 3px 0; color: #64748b; font-weight: 600; vertical-align: top;'>Fecha Envío:</td><td style='padding: 3px 0; color: #334155;'>", format(map_df$submission_time, "%d/%m/%Y %H:%M"), "</td></tr>",
         "</table>",
         photo_html,
